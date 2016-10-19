@@ -7,7 +7,7 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <CommCtrl.h>
-
+#include <vector>
 #include <string>
 #include <algorithm>
 #include <list>

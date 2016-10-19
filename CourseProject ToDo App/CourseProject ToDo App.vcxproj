@@ -149,6 +149,8 @@
     <ClInclude Include="Controller.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskList.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Main Dialog.rc" />
@@ -156,6 +158,8 @@
   <ItemGroup>
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
